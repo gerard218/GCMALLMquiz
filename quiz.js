@@ -18,7 +18,7 @@ const scoreDiv = document.getElementById("scoreContainer");
 let questions = [
     {
         question : "Quina marca és aquesta?",
-        imgSrc : "../img/Mit.png",
+        imgSrc : "Mit.png",
         choiceA : "Mitsubishi",
         choiceB : "Mybach",
         choiceC : "Ram",
@@ -28,17 +28,17 @@ let questions = [
 		resposta : "Molt bé!!"
     },{
         question : "Quin és el logo de la marca Rover?",
-        imgSrc : "../img/blanc3.png",
-        choiceA : "<img src=../img/pontiac.png>",
-        choiceB : "<img src=../img/land2.png>",
-        choiceC : "<img src=../img/rover.png>",
-        choiceD : "<img src=../img/rolls.png>",
+        imgSrc : "blanc3.png",
+        choiceA : "<img src=pontiac.png>",
+        choiceB : "<img src=land2.png>",
+        choiceC : "<img src=rover.png>",
+        choiceD : "<img src=rolls.png>",
         choiceE : "El logo  de Rover és el tercer C",
         correct : "C",
 		resposta : "Molt bé!!"
     },{
         question : "Quina marca és aquesta?",
-        imgSrc : "../img/Acura.png",
+        imgSrc : "Acura.png",
         choiceA : "Ariel",
         choiceB : "Morgan",
         choiceC : "American Cars",
@@ -48,17 +48,18 @@ let questions = [
 		resposta : "Molt bé!!"
     },{
         question : "Quin és el logo de la marca Toyota?",
-	    imgSrc : "../img/blanc3.png",
-        choiceA : "<img src=../img/toyota.png>",
-        choiceB : "<img src=../img/tata.png>",
-        choiceC : "<img src=../img/honda2.png>",
-        choiceD : "<img src=../img/daewoo.png>",
+	    imgSrc : "blanc3.png",
+        choiceA : "<img src=toyota.png>",
+        choiceB : "<img src=tata.png>",
+        choiceC : "<img src=honda2.png>",
+        choiceC : "<img src=honda2.png>",
+        choiceD : "<img src=daewoo.png>",
         choiceE : "El logo  de Toyota és el primer A",
         correct : "A",
 		resposta : "Molt bé!!"
     },{
         question : "Quin cotxe és aquest?",
-        imgSrc : "../img/BMW3.png",
+        imgSrc : "BMW3.png",
         choiceA : "BMW x4",
         choiceB : "Audi A4 sedán",
         choiceC : "BMW serie 3",
@@ -68,7 +69,7 @@ let questions = [
 		resposta : "Molt bé!!"
     },{
         question : "Quin cotxe és aquest?",
-        imgSrc : "../img/lambo.png",
+        imgSrc : "lambo.png",
         choiceA : "Ferrari LaFerrari",
         choiceB : "Pagani Zonda",
         choiceC : "Ferrari 488",
@@ -78,27 +79,27 @@ let questions = [
 		resposta : "Molt bé!!"
     },{
         question : "Quin d´aquests cotxes té més de 500cv",
-        imgSrc : "../img/blanc3.png",
-        choiceA : "<img src=../img/amg.png>",
-        choiceB : "<img src=../img/mustang.png>",
-        choiceC : "<img src=../img/supra.png>",
-        choiceD : "<img src=../img/cayman.png>",
+        imgSrc : "blanc3.png",
+        choiceA : "<img src=amg.png>",
+        choiceB : "<img src=mustang.png>",
+        choiceC : "<img src=supra.png>",
+        choiceD : "<img src=cayman.png>",
         choiceE : "El primer té més de 500 cv",
         correct : "A",
 		resposta : "Molt bé!!"
     },{
         question : "Quin fracment de cotxe  pertany a un Ferrari F40?",
-        imgSrc : "../img/logof40.png",
- 		choiceA : "<img src=../img/f50.png>",
-        choiceB : "<img src=../img/gto.png>",
-        choiceC : "<img src=../img/f40.png>",
-        choiceD : "<img src=../img/evo.png>",
+        imgSrc : "logof40.png",
+ 		choiceA : "<img src=f50.png>",
+        choiceB : "<img src=gto.png>",
+        choiceC : "<img src=f40.png>",
+        choiceD : "<img src=evo.png>",
         choiceE : "El tercer és un Ferrari F40",
         correct : "C",
 		resposta : "Correcte!!"
     },{
         question : "Quin és el model exacte del cotxe de la imatge?",
-        imgSrc : "../img/GT.png",
+        imgSrc : "GT.png",
         choiceA : "Chevrolet Camaro",
         choiceB : "Chevrolet Corvette",
         choiceC : "Ford Henessey",
@@ -109,29 +110,29 @@ let questions = [
 
     },{
         question : "Quin cotxe té la velocitat punta més alta?",
-        imgSrc : "../img/blanc3.png",
-        choiceA : "<img src=../img/veiron.png>",
-        choiceB : "<img src=../img/venom.png>",
-        choiceC : "<img src=../img/agera.png>",
-        choiceD : "<img src=../img/laferrari.png>",
+        imgSrc : "blanc3.png",
+        choiceA : "<img src=veiron.png>",
+        choiceB : "<img src=venom.png>",
+        choiceC : "<img src=agera.png>",
+        choiceD : "<img src=laferrari.png>",
         choiceE : "La velocitat punta més alta la té el Hennessey Venom F5  , el segon",
         correct : "B",
 		resposta : "Molt bé!!"
 
     },{
         question : "Quina d´aquestes ''inicials'' de Audi és més esportiva?",
-        imgSrc : "../img/logoaudi.png",
-        choiceA : "<img src=../img/tsilogo.png>",
-        choiceB : "<img src=../img/rslogopng.png>",
-        choiceC : "<img src=../img/tdilogo.png>",
-        choiceD : "<img src=../img/slogo.png>",
+        imgSrc : "logoaudi.png",
+        choiceA : "<img src=tsilogo.png>",
+        choiceB : "<img src=rslogopng.png>",
+        choiceC : "<img src=tdilogo.png>",
+        choiceD : "<img src=slogo.png>",
         choiceE : "Les inicials més esportives de Audi són RS",
         correct : "B",
 		resposta : "Molt bé!!"
 
     },{
         question : "Que volen dir les ''inicials'' RS?",
-        imgSrc : "../img/rslogopng.png",
+        imgSrc : "rslogopng.png",
         choiceA : "Ràpid, Sigilós",
         choiceB : "Ràpid, Superesportiu",
         choiceC : "Racing, Sport",
@@ -142,7 +143,7 @@ let questions = [
 
     },{
         question: "Endevina el cotxe",
-        imgSrc : "../img/totoya.png",
+        imgSrc : "totoya.png",
         choiceA : "Porsche Panamera Turbo",
         choiceB : "Infiniti QX80",
         choiceC : "Toyota Sequoia AWD",
@@ -153,7 +154,7 @@ let questions = [
 
     },{
         question : "Endevina el cotxe",
-        imgSrc : "../img/pontiacgto.png",
+        imgSrc : "pontiacgto.png",
         choiceA : "Chevy Nova",
         choiceB : "Hyundai Sonata Turbo",
         choiceC : "TVR Cervera Speed",
@@ -163,7 +164,7 @@ let questions = [
 		resposta : "Correcte!!"
     },{
         question : "Endevina el model del cotxe",
-        imgSrc : "../img/m2X.png",
+        imgSrc : "m2X.png",
         choiceA : "Tahoe AT",
         choiceB : "M2 Competition",
         choiceC : "GTO V8",
@@ -174,7 +175,7 @@ let questions = [
 
     },{
         question : "Quin any va ser el començament de la producció del Mercedes-AMG GLC 63 S",
-        imgSrc : "../img/glc63.png",
+        imgSrc : "glc63.png",
         choiceA : "2017",
         choiceB : "2019",
         choiceC : "2020",
@@ -185,7 +186,7 @@ let questions = [
 
     },{
         question : "Aproximadament quants CV creus que té?",
-        imgSrc : "../img/focusrs-2.png",
+        imgSrc : "focusrs-2.png",
         choiceA : "260 CV",
         choiceB : "400 CV",
         choiceC : "315 CV",
@@ -196,7 +197,7 @@ let questions = [
 
     },{
         question : "Aproximadament quants CV creus que té?",
-        imgSrc : "../img/wrcyaris.png",
+        imgSrc : "wrcyaris.png",
         choiceA : "600 CV",
         choiceB : "400 CV",
         choiceC : "420 CV",
@@ -206,7 +207,7 @@ let questions = [
 		resposta : "Correcte!!"
     },{
         question : "Qui té el rècord de victòries en mundials de rallys? ",
-        imgSrc : "../img/logowrc.png",
+        imgSrc : "logowrc.png",
         choiceA : "Tommi Mäkinen",
         choiceB : "Juha Kankkunen",
         choiceC : "Colin McRae",
@@ -217,7 +218,7 @@ let questions = [
 
     },{
         question : "Quants mundials consecotius ha guanyat Sébastien Loeb?",
-        imgSrc : "../img/logowrc.png",
+        imgSrc : "logowrc.png",
         choiceA : "7 Mundials",
         choiceB : "9 Mundials",
         choiceC : "3 Mundials",
@@ -227,7 +228,7 @@ let questions = [
 		resposta : "Correcte!!"
     },{
         question : "Qui té el rècord de victòries en mundials de Formula 1? ",
-        imgSrc : "../img/f1.png",
+        imgSrc : "f1.png",
         choiceA : "Michael Schumacher",
         choiceB : "Ayrton Senna",
         choiceC : "Juan Manuel Fangio",
@@ -237,7 +238,7 @@ let questions = [
 		resposta : "Correcte!!"
     },{
         question : "Quants mundials ha guanyat Michael Schumacher?",
-        imgSrc : "../img/f1.png",
+        imgSrc : "f1.png",
         choiceA : "7 Mundials",
         choiceB : "9 Mundials",
         choiceC : "3 Mundials",
@@ -247,27 +248,27 @@ let questions = [
 		resposta : "Correcte!!"
     },{
         question : "Quin cotxe pasaria més ràpid per Nürburgring Nordschleife?",
-        imgSrc : "../img/logonu.png",
-        choiceA : "<img src=../img/shelby.png>",
-        choiceB : "<img src=../img/aven.png>",
-        choiceC : "<img src=../img/488gtb.png>",
-        choiceD : "<img src=../img/rr.png>",
+        imgSrc : "logonu.png",
+        choiceA : "<img src=shelby.png>",
+        choiceB : "<img src=aven.png>",
+        choiceC : "<img src=488gtb.png>",
+        choiceD : "<img src=rr.png>",
         choiceE : "El que passaria més ràpid seria el Ferrari 488 GTB , tercer",
         correct : "C",
 		resposta : "Correcte!!"
     },{
         question : "Quin cotxe pasaria més ràpid per Nürburgring Nordschleife?",
-        imgSrc : "../img/logonu.png",
-        choiceA : "<img src=../img/camaro.png>",
-        choiceB : "<img src=../img/rr.png>",
-        choiceC : "<img src=../img/911.png>",
-        choiceD : "<img src=../img/gts.png>",
+        imgSrc : "logonu.png",
+        choiceA : "<img src=camaro.png>",
+        choiceB : "<img src=rr.png>",
+        choiceC : "<img src=911.png>",
+        choiceD : "<img src=gts.png>",
         choiceE : "El que passaria més ràpid seria el Honda Civic Type R , segon",
         correct : "B",
 		resposta : "Correcte!!"
     },{
         question : "Quin cotxe és aquest?",
-        imgSrc : "../img/civic.png",
+        imgSrc : "civic.png",
         choiceA : "Skoda Superb",
         choiceB : "Hummer H1 4",
         choiceC : "Honda Legend",
@@ -277,11 +278,11 @@ let questions = [
 		resposta : "Correcte!!"
 	},{
         question : "Quin cotxe accelera de 0-100 Km/h més ràpid?",
-        imgSrc : "../img/0100.png",
-        choiceA : "<img src=../img/xkrs.png>",
-        choiceB : "<img src=../img/syy.png>",
-        choiceC : "<img src=../img/512.png>",
-        choiceD : "<img src=../img/m5.png>",
+        imgSrc : "0100.png",
+        choiceA : "<img src=xkrs.png>",
+        choiceB : "<img src=syy.png>",
+        choiceC : "<img src=512.png>",
+        choiceD : "<img src=m5.png>",
         choiceE : "El Jaguar XK RS és el que accelera de 0-100 km/h més ràpid , segon",
         correct : "A",
 		resposta : "Correcte!!"
@@ -398,12 +399,12 @@ function scoreRender(){
     const scorePerCent = Math.round(100 * score/questions.length);
     
     // choose the image based on the scorePerCent
-    let img = (scorePerCent >= 80) ? "../img/5.png" :
-             (scorePerCent >= 60) ? "../img/4.png" :
-               (scorePerCent >= 40) ? "../img/3.png" :
-              (scorePerCent >= 20) ? "../img/2.png" :
-              "../img/1.png";
+    let img = (scorePerCent >= 80) ? "5.png" :
+             (scorePerCent >= 60) ? "4.png" :
+               (scorePerCent >= 40) ? "3.png" :
+              (scorePerCent >= 20) ? "2.png" :
+              "1.png";
     
-    scoreDiv.innerHTML = "<img src="+ img +">";
+    scoreDiv.innerHTML = "<img src="+img+">";
     scoreDiv.innerHTML += "<p>"+ scorePerCent +"%</p>";
 }
