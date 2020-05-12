@@ -32,7 +32,7 @@ let questions = [
         choiceA : "<img src=pontiac.png>",
         choiceB : "<img src=land2.png>",
         choiceC : "<img src=rover.png>",
-        choiceD : "<img src=rolls.png>",
+        choiceD : "<img src=rol.png>",
         choiceE : "El logo  de Rover és el tercer C",
         correct : "C",
 		resposta : "Molt bé!!"
@@ -88,7 +88,7 @@ let questions = [
         correct : "A",
 		resposta : "Molt bé!!"
     },{
-        question : "Quin fracment de cotxe  pertany a un Ferrari F40?",
+        question : "Quin fragment de cotxe  pertany a un Ferrari F40?",
         imgSrc : "logof40.png",
  		choiceA : "<img src=f50.png>",
         choiceB : "<img src=gto.png>",
@@ -228,7 +228,7 @@ let questions = [
 		resposta : "Correcte!!"
     },{
         question : "Qui té el rècord de victòries en mundials de Formula 1? ",
-        imgSrc : "f1.png",
+        imgSrc : "F1.png",
         choiceA : "Michael Schumacher",
         choiceB : "Ayrton Senna",
         choiceC : "Juan Manuel Fangio",
@@ -238,7 +238,7 @@ let questions = [
 		resposta : "Correcte!!"
     },{
         question : "Quants mundials ha guanyat Michael Schumacher?",
-        imgSrc : "f1.png",
+        imgSrc : "F1.png",
         choiceA : "7 Mundials",
         choiceB : "9 Mundials",
         choiceC : "3 Mundials",
@@ -249,7 +249,7 @@ let questions = [
     },{
         question : "Quin cotxe pasaria més ràpid per Nürburgring Nordschleife?",
         imgSrc : "logonu.png",
-        choiceA : "<img src=shelby.png>",
+        choiceA : "<img src=Shelby.png>",
         choiceB : "<img src=aven.png>",
         choiceC : "<img src=488gtb.png>",
         choiceD : "<img src=rr.png>",
